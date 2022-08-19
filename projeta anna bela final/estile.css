@@ -1,0 +1,41 @@
+body{
+    background-image: url(imagens/fundo.png);
+}
+#principal{
+    width: 900px;
+}
+#menu{
+    width: 900px;
+    background-color: rgb(213, 206, 206);
+    text-decoration: none;
+    padding: 15px;
+}
+.conteudo{
+    width: 900px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin-top: -14px;
+}
+h1{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: grey;
+    text-indent: 10px;
+    padding: 10px ;
+    
+}
+p{
+    text-align: justify;
+    text-indent: 15px;
+    
+}
+.rodape p{
+    text-align: center;
+}
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+}

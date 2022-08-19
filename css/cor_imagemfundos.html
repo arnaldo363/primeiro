@@ -1,24 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cor e imagem de fundos</title>
     <style>
-    .fundo{
-            background-color:blue;
-            color: white;
-            }
-            body{
-                background-image: url(imagens/yoshi.png ) ;
-                background-repeat: repeat-y;
-            }
+        body {
+            background-image: url(imagens/yoshi.png );
+            /* repeat-x, repeat-y, no-repeat*/
+            background-repeat: no-repeat;
+            /* scrool, fixed*/
+            background-attachment: fixed;
+            /* primeiro valor: left, center, right
+                   segundo valor: top, center, bottom*/
+            background-position: bottom top;
+            text-indent: 15px;
+            text-align: justify;
+            
+        }
 
+        .fundo {
+            background: blue url(imagens/yoshi.png) no-repeat fixed center left ;
+        }
     </style>
 </head>
-<body>
-    <h1 class="fundo">Conteudo de título 1</h1>
-   
+
+<body class="fundo">
+    <h1>Conteudo de título 1</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias odit totam accusamus nemo sapiente repellat ad, maxime quidem voluptatum cupiditate enim nihil, vitae aperiam eos aliquid perferendis quia. Adipisci, ullam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas fuga exercitationem voluptatum ea blanditiis fugit laudantium iste nesciunt quos maiores reiciendis harum totam suscipit officiis architecto voluptatem, voluptate iusto possimus Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quidem autem aut voluptatibus optio ducimus iste ipsa accusantium ab expedita repellendus dolore, laudantium voluptatum amet quia mollitia, modi atque error?.</p>
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+    <br><br><br><br><br><br>
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis molestiae odit ipsum ratione tempore deleniti
+        architecto nesciunt, quod amet dolorum? Nemo hic, mollitia error saepe quidem quibusdam! Quibusdam, iure!
+        Deleniti.</p>
+
 </body>
+
 </html>
