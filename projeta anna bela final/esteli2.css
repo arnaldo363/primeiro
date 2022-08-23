@@ -1,22 +1,22 @@
 body{
-    background-image: url(imagens/fundo.png)  width: 100%;
+    background-image: url(imagens/fundo.png);
 }
 #principal{
-    width: 100%;
+    width: 97%;
 }
 #menu{
     width: 85%;
     background-color: rgb(213, 206, 206);
     text-decoration: none;
     padding: 18px;
-}
-.conteudo{
+ }
+ .conteudo{
     width: 87%;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
+    background-color: rgb(255, 249, 249);
     margin-top: -14px;
     padding-bottom: 10PX ;
-}
+
 h1{
 
     font-family: Arial, Helvetica, sans-serif;
