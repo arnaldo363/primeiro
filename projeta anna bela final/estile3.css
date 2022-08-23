@@ -1,6 +1,8 @@
+
 body{
     background-image: url(imagens/fundo.png);
     font: 16px Arial, Helvetica, sans-serif;
+    margin: 0px;
 }
 #principal{
     width: 900px; 
