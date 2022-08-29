@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>elemento Inline, Block e Inline-block</title>
+    <style>
+        /* o elelmento fica uma abaixo do outro com o tamanho do conteudo*/
+        .borda {
+            border: 2px solid blue;
+            display:inline-block; 
+            padding: 5PX;
+            margin: 5px;
+        }
+        /* o elemento ocupa toda o espaço da tela*/
+        .casa{
+            border: 2px solid green;
+            display: block;
+            padding: 5px;
+            margin: 5px;
+            
+        }
+        /* o elemento fica um do lado do outro ate o fim do conteudo*/
+        .carro{
+            border: 2px solid red;
+            display: inline;
+           
+            
+        }
+    </style>
+</head>
+
+<body>
+    <span class="borda">inline 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit.endi, veritatis fuga non culpa modi Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ipsum ex explicabo, expedita omnis saepe, nisi, reiciendis blanditiis obcaecati praesentium hic ratione possimus quod. Dolorum necessitatibus ullam veniam quam ea!</span>
+    <span class="borda">inline 2</span>
+    <hr>
+    <span class="casa">inline 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit.endi, veritatis fuga non culpa modi Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ipsum ex explicabo, expedita omnis saepe, nisi, reiciendis blanditiis obcaecati praesentium hic ratione possimus quod. Dolorum necessitatibus ullam veniam quam ea!</span>
+    <span class="casa">inline 2</span>
+    <hr>
+     <span class="carro">inline 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit.endi, veritatis fuga non culpa modi Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ipsum ex explicabo, expedita omnis saepe, nisi, reiciendis blanditiis obcaecati praesentium hic ratione possimus quod. Dolorum necessitatibus ullam veniam quam ea!</span>
+    <span class="carro">inline 2</span>
+    <hr>
+    
+</body>
+
+</html>
