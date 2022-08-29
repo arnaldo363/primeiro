@@ -1,29 +1,63 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elementos flutuantes</title>
     <style>
-        .conteudo{
+        #principal {
+            border: 5px solid red;
+            background-color: green;
+        }
+
+        .conteudo {
             background: blue;
             border: 1px solid gray;
-            width: 150px;
-            height: 150px;
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            float: right;
+
         }
-        .conteudo1{
-            background: blue;
+
+        .clear {
+            clear: both;
+        }
+
+        /*.conteudo-zero {
+            background: red;
             border: 1px solid gray;
-            width: 150px;
-            height: 150px;
-            float: ;
+            width: 250px;
+            height: 250px;
+
         }
+        */
     </style>
 </head>
+
 <body>
-    <div class="conteudo">conteudo 1</div>
-    <div class="conteudo">conteudo 2</div>
-    <div class="conteudo">conteudo 3</div>
+    <div id="principal">
+        <div class="conteudo">conteudo 1</div>
+        <div class="conteudo">conteudo 2</div>
+        <div class="conteudo">conteudo 3</div>
+        <p class="clear">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci id labore fugiat impedit rerum reiciendis
+            doloremque, pariatur, neque voluptatibus magni, praesentium exercitationem delectus dolores cumque iusto
+            repellat sed dolorem laborum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto architecto
+            praesentium a eligendi facilis optio similique, nulla autem provident cum fuga reiciendis ducimus tempora
+            modi cumque rem aliquid libero id.
+        </p>
+        <!--<div class="clear"></div>-->
+    </div>
+
+
+
+
+
+
+
 </body>
+
 </html>
