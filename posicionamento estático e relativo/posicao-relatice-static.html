@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamento (static,relative, absolute e fixed</title>
+    <style>
+        body {
+            background: #007fc7;
+        }
+
+        #container {
+            background: #fff;
+            width: 800px;
+            margin: 10px auto;
+            padding: 10px;
+        }
+        h1{
+            color:#007fc7;
+            text-align: center;
+            text-decoration: underline;
+            
+        }
+        p{
+            color: #007fc7;
+            width: 300px;
+            text-align: justify;
+            text-indent: 10px;
+        }
+        .relative{
+            border: 3px solid black;
+            /* TOP, RIGHT, BOTTOM E LEFT*/
+            position: relative;
+            top: 20px;
+            left: 100px;
+        }
+      
+            
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Posicionamento</h1>
+        <p>
+            P1 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque aliquam suscipit iste repudiandae! Quae
+            amet et molestiae sint eos quas veniam repudiandae mollitia, molestias ut distinctio. Cumque rem quasi modi!
+        </p>
+        <p class="relative">
+            P2 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque aliquam suscipit iste repudiandae! Quae
+            amet et molestiae sint eos quas veniam repudiandae mollitia, molestias ut distinctio. Cumque rem quasi modi!
+        </p>
+        <p>
+            P3 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque aliquam suscipit iste repudiandae! Quae
+            amet et molestiae sint eos quas veniam repudiandae mollitia, molestias ut distinctio. Cumque rem quasi modi!
+        </p>
+
+    </div>
+</body>
+
+</html>
