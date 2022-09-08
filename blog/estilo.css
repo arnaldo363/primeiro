@@ -39,6 +39,12 @@ body{
    padding: 10px;
    margin-bottom: 20px;
  }
+ .contatos{
+    margin: 15px;
+    color: #f7b600;  
+    border: 1px solid #ccc ;
+    
+  }
  .postagem-lateral{
    font-size: 0.8em;
    padding: 5px;

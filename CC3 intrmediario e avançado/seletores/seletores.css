@@ -1,0 +1,47 @@
+/*seletor universal*/
+{
+    border: 1px solid blue;
+}
+/*seletor de ID*/
+#cabecalho{
+    border: 5px solid yellow ;
+}
+/*seletor de texto*/
+h1{
+    color: green;
+}
+/*seletores de classe */
+.vermelha{
+ color: red;
+}
+p.vermelha{
+    color: red;
+}
+
+/*seletro de filho*/
+li> a {
+    color: red;
+    text-decoration: none;
+    display: block;
+    
+}
+/*seletor descendente*/
+div a{
+    color: goldenrod;
+}
+/*seletor irmão adjacente*/
+h1+div{
+    color: blue;
+}
+h1{
+    background-color: black ;
+    color: white;
+}
+/*seletor de irmão geral*/
+h1~p{
+    color: cadetblue;
+}
+body{
+    background-color:gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
