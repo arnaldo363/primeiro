@@ -1,0 +1,24 @@
+/* seletores iguais , sempre o último será aplicado, ao não ser  aplicado !important*/
+p{
+    color: blue !important;
+}
+p{
+    color: red ;
+}
+/*  se um seletor for mais especifico que outro a regra mais especifica será aplicado( terá precedência sobre regras mais gerais)*/
+*{
+    color: red;
+}
+/* seletor mais especifico*/
+h2{
+    color: green;
+}
+/* ainda mais especifico*/
+h2.verde{
+    color: chartreuse;
+}
+/* ainda mais especifico por causa do elemento ID*/
+h2#amarelo{
+    color: yellow;
+}
+    
