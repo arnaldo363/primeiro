@@ -9,16 +9,15 @@ p{
 *{
     color: red;
 }
-/* seletor mais especifico*/
+/* 1  seletor mais especifico*/
 h2{
     color: green;
 }
-/* ainda mais especifico*/
+/* 2 ainda mais especifico*/
 h2.verde{
     color: chartreuse;
 }
-/* ainda mais especifico por causa do elemento ID*/
+/* 1 ainda mais especifico por causa do elemento ID*/
 h2#amarelo{
     color: yellow;
 }
-    
