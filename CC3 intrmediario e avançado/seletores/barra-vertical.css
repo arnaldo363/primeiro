@@ -28,4 +28,13 @@ a:hover {
     background-position:right bottom ;
     background-color: #f99200;
     color: #fff;
+}/* o link fica marcado*/
+#vert-home #navegacao .home a,
+#vert-sobre #navegacao .sobre a,
+#vert-servicos #navegacao .servicos a,
+#vert-contatos #navegacao .contatos a,
+#vert-noticias #navegacao .noticias a{
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
 }
