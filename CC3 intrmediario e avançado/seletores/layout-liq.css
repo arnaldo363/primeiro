@@ -1,0 +1,57 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #f2f2f2;
+}
+#container{
+    width: 85%; /* 720px*/
+    margin: 0px auto;
+    background: #fff;
+}
+#marca{
+    height:100px;
+    background: #9e9e9e;
+    text-align: center;
+    line-height: 100px;
+}
+#conteudo{/*520px conteudo + 180px da navegação soma os dois = 700 depois-- 520*100/700= 75% --180*100/700=23%--*/
+    width: 75%;/
+    float: right;
+}
+#navegacao{
+    width: 23%;/*180px*/
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #d1d1d1;
+}
+#conteudo-principal{/* 320px  pricipal +180px secundario= 500* depois  320*100/500=63%---180*100/500=33%*/
+    width: 63%; /*320px*/
+    float: left;
+    text-indent: 15px;
+}
+#conteudo-secundario{
+    width: 33%;/*180px*/
+    float:right;
+    background: #e1dbdb;
+    text-indent: 15px;
+}
+#conteudo-secundario h1,
+#conteudo-secundario h2,
+#conteudo-secundario h3,
+#conteudo-secundario p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#navegacao ul{
+    list-style: none;
+}
+#navegacao li a{
+     text-decoration: none;
+}
+
+#rodape{
+    clear: both; /* limpar a propriedade flutuante*/
+    background: #c4c4c4;
+    padding: 5px;
+}
