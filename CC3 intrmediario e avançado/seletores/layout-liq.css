@@ -3,9 +3,11 @@ body{
     background: #f2f2f2;
 }
 #container{
-    width: 85%; /* 720px*/
+    width: 100%; /* 720px*/
     margin: 0px auto;
     background: #fff;
+    min-width:720px ;/* largura minima*/
+   /* max-width: 1200px; largura maxima*/
 }
 #marca{
     height:100px;
@@ -14,7 +16,7 @@ body{
     line-height: 100px;
 }
 #conteudo{/*520px conteudo + 180px da navegação soma os dois = 700 depois-- 520*100/700= 75% --180*100/700=23%--*/
-    width: 75%;/
+    width: 75%;
     float: right;
 }
 #navegacao{
@@ -24,14 +26,14 @@ body{
     padding-bottom: 20px;
     background: #d1d1d1;
 }
-#conteudo-principal{/* 320px  pricipal +180px secundario= 500* depois  320*100/500=63%---180*100/500=33%*/
+#conteudo-principal{/* 320px  principal +180px secundario= 500* depois  320*100/500=63%---180*100/500=33%*/
     width: 63%; /*320px*/
     float: left;
     text-indent: 15px;
 }
 #conteudo-secundario{
-    width: 33%;/*180px*/
-    float:right;
+    width: 32%;/*180px*/
+    float:  right;
     background: #e1dbdb;
     text-indent: 15px;
 }
