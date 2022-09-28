@@ -1,0 +1,69 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #f2f2f2;
+}
+#container{
+    width: 1000px; /* 720px*/
+    margin: 0px auto;
+    background: #fff url(imagens/coluna.png)repeat-y left top;
+    min-width:720px ;/* largura minima*/
+   /* max-width: 1200px; largura maxima*/
+}
+#marca{
+    width: 100%;
+    height:200px;
+    background: #225992 url(imagens/cabecalho2.jpg) no-repeat center;
+    text-align: center;
+    line-height: 200px;
+}/*
+#imagem{
+    width:90% ;
+    overflow: hidden;
+}*/
+img.img-noticia {
+    width: 96%;
+    padding: 2%;
+    max-width: 1000px;
+}
+#conteudo{/*520px conteudo + 180px da navegação soma os dois = 700 depois-- 520*100/700= 75% --180*100/700=23%--*/
+    width: 75%;
+    float: right;
+}
+#navegacao{
+    width: 23%;/*180px*/
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /*background: #f1eded;*/
+}
+#conteudo-principal{/* 320px  principal +180px secundario= 500* depois  320*100/500=63%---180*100/500=33%*/
+    width: 63%; /*320px*/
+    float: left;
+    text-indent: 15px;
+}
+#conteudo-secundario{
+    width: 32%;/*180px*/
+    float:  right;
+    background: #eeeaea;
+    text-indent: 15px;
+}
+#conteudo-secundario h1,
+#conteudo-secundario h2,
+#conteudo-secundario h3,
+#conteudo-secundario p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#navegacao ul{
+    list-style: none;
+}
+#navegacao li a{
+     text-decoration: none;
+}
+
+#rodape{
+    clear: both; /* limpar a propriedade flutuante*/
+    background: #e4e1e1;
+    padding: 5px;
+} 
