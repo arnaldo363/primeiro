@@ -3,6 +3,8 @@ body{
     
 }
 h2{
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
     text-align: center;
     background-color: rgb(68, 0, 255);
     margin: 0 auto;
