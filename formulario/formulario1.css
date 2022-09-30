@@ -3,6 +3,7 @@ body{
 }
 fieldset{
     padding: 1em;
+    margin: 1em 0;
     border: 1px solid #ccc;
     background: #f8f8f8;
 }
@@ -15,4 +16,8 @@ label{
 }
 input{
     width: 20em;
+}
+textarea{
+    width: 20em;
+    height: 10em;
 }
