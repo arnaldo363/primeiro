@@ -68,23 +68,27 @@ body.fotos #navegacao a#fotos
     background: gray;
     margin-top: 60px;
 }
-#primario{
+ #primario{
     float: left;
     width: 270px;
     margin: 0 0 20px 195px;
-    background: blue;
+}
+#duas-colunas #primario{
+    width: 555px;  
+}
+#uma-coluna #primario{
+    width: 750px;
+    margin: 0 0 20px 0; 
 }
 #secundario{
     float: left;
     width: 270px;
     margin: 0 0 20px 15px;
-    background: red;
 }
 #lateral{
     float: left;
     width: 180px;
     margin: 0 0 20px -750px;
-    background: green;
 }
 #container-rodape{
     background: #294c71;
