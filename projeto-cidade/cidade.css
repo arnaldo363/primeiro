@@ -8,8 +8,7 @@ body  {
 }
 #container{
     width: 750px;
-    margin: 0 auto;
-   
+    margin: 0 auto; 
 }
 #topo{
     background: url(imagens/detalhe-topo.png)no-repeat right top;
@@ -63,4 +62,36 @@ body.fotos #navegacao a#fotos
     color: white;
     background: #de003e;
     cursor: text;
+}
+/* configura layout de três colunas*/
+#conteudo{
+    background: gray;
+    margin-top: 60px;
+}
+#primario{
+    float: left;
+    width: 270px;
+    margin: 0 0 20px 195px;
+    background: blue;
+}
+#secundario{
+    float: left;
+    width: 270px;
+    margin: 0 0 20px 15px;
+    background: red;
+}
+#lateral{
+    float: left;
+    width: 180px;
+    margin: 0 0 20px -750px;
+    background: green;
+}
+#container-rodape{
+    background: #294c71;
+    padding: 20px;
+}
+#rodape{
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
 }
