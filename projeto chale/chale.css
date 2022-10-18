@@ -10,8 +10,8 @@ body{
 #container{
     background: #ede9cc url(imagens/bg-container.png) top center repeat-y;
     margin: 0 auto;
-    min-width: 740px;
-    max-width: 1180px;
+    min-width: 800px;
+    max-width: 1100px;
 }
 #topo{
     position: relative;
@@ -116,10 +116,51 @@ a.reserva{
     margin: 0 auto;
     width: 90%;
     padding: 20px 0px;
+}
+.historia{
+    float: right;
+    padding: 5px 0;
+}
+#beneficios li {
+    padding: 8px;
+    border-bottom:1px solid #f3efcb;
+    height: 6em;
+}
+#beneficios li a img {
+    float: left;
+    margin-right: 8px;
+}
+#beneficios li a p {
+    color: #000;
+    font-size: 0.8em;
+}
+#beneficios li a h3{
+    font-size: 1em;
+    color: #615b2d;
+    padding: 5px 0;
+    background: url(imagens/ornamento.png) no-repeat center right;
+}
+#beneficios li:hover {
+    background: #f6f3d6;
+    cursor: pointer;
+}
 
-    
+/*formatações do textos*/
+h2{
+    color: #7d7640;
+    font-size: 1.1em;
+    padding: 05px 0px;
+}
+p{
+    font-size: 1em;
+    padding: 5px;
+    text-indent: 15px;
+    text-align:justify;
 }
 /* rodape*/
 #rodape {
     clear: both;
+    padding: 6px;
+    color: #7d7640;
+    background: #fff url(imagens/bg-rodape.png) repeat-x top;
 }
