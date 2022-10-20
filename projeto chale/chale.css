@@ -158,28 +158,26 @@ p{
     text-align:justify;
 }
 #reserva {
-    text-align: ;
-    background:url(imagens/bg-linha.gif) ;
-    float:left;
-    color: #7d7640;;
-    width: 530px;
-    
+    background:url(imagens/bg-linha.gif) no-repeat;
+    color: #7d7640;
     
 }
-#reserva h2{
+h2{
     margin-top: 10px;
-    color: #7d7640; ;
+    color: #7d7640; 
     text-align: center;
 }
 input{
     color: #7d7640;
     width: 250px;
     padding: 5px;
-    
+    cursor: pointer;
+    margin: 10px;
 }
 label{
-    cursor: pointer;
+    margin: 10px;
 }
+                   
 textarea{
     width: 20em;
     height: 5em;
