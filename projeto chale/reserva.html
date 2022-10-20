@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="chale.css">
+    <title>Projeto Chale</title>
+</head>
+
+<body>
+    <!--inicio container-->
+    <div id="container">
+        <!--inicio topo-->
+        <div id="topo">
+            <div id="area-logo">
+                <h1 class="logo">
+                    <a href="">Chalé Hotel</a>
+                </h1>
+            </div>
+            <div id="area-menu">
+                <div id="conteudo-menu">
+                    <div id="menu-locais">
+                        <span class="locais">
+                            Rio de Janeiro - São Paulo - Belo Horizonte
+                        </span>
+                        <a class="reserva" href="reserva.html" target="_blank">reservar</a>
+                        <div style="clear:both;"></div>
+                    </div>
+                    <div id="menu">
+                        <ul id="navegacao">
+                            <li> <a href="chale.html">Home</a></li>
+                            <li> <a href="historia.html">História</a></li>
+                            <li> <a href="">Imprensa</a></li>
+                            <li> <a href="">Gastronomia</a></li>
+                            <li> <a href="">Contato</a></li>
+                        </ul>
+                        <img class="depoimento" src="imagens/depoimento.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--final topo-->
+        <div id="area-principal">
+            <div class="conteudo">
+                <h2>Lorem ipsum dolor sit amet, consectetur </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro, sed magni eius veniam ea
+                    perferendis ipsam tempore nesciunt, ullam deserunt consequuntur blanditiis nobis inventore accusamus
+                    ipsa labore deleniti reprehenderit.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro, sed magni eius veniam ea
+                    perferendis ipsam tempore nesciunt, ullam deserunt consequuntur blanditiis nobis inventore accusamus
+                    ipsa labore deleniti reprehenderit.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro, sed magni eius veniam ea
+                    perferendis ipsam tempore nesciunt, ullam deserunt consequuntur blanditiis nobis inventore accusamus
+                    ipsa labore deleniti reprehenderit.</p>
+
+            </div>
+
+        </div>
+        <!--final da area principal-->
+        <!--inicio da area reserva-->
+        <div id="reserva">
+            <h2>Fazer a sua reservar conosco.</h2>
+
+            <form action="https://formsubmit.co/jose.arnaldo.santos@hotmail.com" method="post">
+
+                Nome completo: <br>
+                <input type="text" name="nome" id="name" placeholder="Insira o seu nome" required> <br> <br>
+                Email: <br>
+                <input type="text" name="email" id="email" placeholder="Digite o seu e-mail"> <br> <br>
+                Telefone: <br>
+                <input type="phone" name="phone" id="phone" placeholder="Insira o seu telefone" required> <br> <br>
+                Sexo: <br>
+                <input class="radio" type="radio" name="sexo" value="M" required>Masculino <br>
+                <input class="radio" type="radio" name="sexo" value="F" required>Feminino <br><br>
+                Dados de Endereço: <br>
+                Endereço: <br>
+                <input type="text" name="endereço" placeholder="Insira o seu Endereço" required> <br>
+                Núnero: <br>
+                <input type="number" name="numero"  placeholder="Insira o seu Número" required> <br>
+                Bairro: <br>
+                <input type="text" name="bairro" placeholder="Insira o seu Bairro" required> <br>
+                Estado: <br>
+                <select name="estado">
+                    <option value="ac">Acre</option>
+                    <option value="al">Alagoas</option>
+                    <option value="am">Amazonas</option>
+                    <option value="ap">Amapá</option>
+                    <option value="ba">Bahia</option>
+                    <option value="ce">Ceará</option>
+                    <option value="df">Distrito Federal</option>
+                    <option value="es">Espírito Santo</option>
+                    <option value="go">Goiás</option>
+                    <option value="ma">Maranhão</option>
+                    <option value="mt">Mato Grosso</option>
+                    <option value="ms">Mato Grosso do Sul</option>
+                    <option value="mg">Minas Gerais</option>
+                    <option value="pa">Pará</option>
+                    <option value="pb">Paraíba</option>
+                    <option value="pr">Paraná</option>
+                    <option value="pe">Pernambuco</option>
+                    <option value="pi">Piauí</option>
+                    <option value="rj">Rio de Janeiro</option>
+                    <option value="rn">Rio Grande do Norte</option>
+                    <option value="ro">Rondônia</option>
+                    <option value="rs">Rio Grande do Sul</option>
+                    <option value="rr">Roraima</option>
+                    <option value="sc">Santa Catarina</option>
+                    <option value="se">Sergipe</option>
+                    <option value="sp">São Paulo</option>
+                    <option value="to">Tocantins</option>
+                </select> <br>
+                Cidade: <br>
+                <input type="text" name="cidade" placeholder="Insira o seu Cidade" required> <br>
+                CEP: <br>
+                <input type="text" name="cep" size="5" maxlength="5" placeholder="Insira o seu CEP" required><br>
+                Observações: <br>
+                <textarea></textarea> <br>
+                <input type="submit" value="Cadastrar">
+            </form>
+        </div>
+
+        <!--final da area reserva-->
+
+        <div id="rodape">
+            <small>
+                &copy; Copyright 2022 Chalé Hotel
+            </small>
+        </div>
+    </div>
+    <!--final container-->
+</body>
+
+</html>
