@@ -1,0 +1,7 @@
+#caixa{
+    width: 300px;
+    height: 300px;
+    background: linear-gradient( 98deg , red,green, blue 
+    );
+    background: radial-gradient(red, blue, green, yellow);
+}
