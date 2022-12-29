@@ -1,0 +1,19 @@
+header{
+    border: 1px solid red;
+    background: #f2f2f2;
+    padding: 10px;
+    margin: 10px;
+}
+nav{
+    border: 1px solid blue;
+    background: #ccc;
+    padding: 10px;
+    margin: 10px;
+}
+footer{
+    background: green;
+    margin: 10px;
+    color: white;
+    text-align: center;
+
+}
