@@ -26,7 +26,13 @@ section{
     border: 1px dotted #fff;
 }
 aside{
-    background: blue;
+    background: rgba(30, 5, 133, 0.8);
     margin: 10px;
-     
+    color: white;
+}
+p{
+    text-indent: 10px;
+}
+h3{
+    margin: 10px;
 }
