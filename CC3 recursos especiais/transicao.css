@@ -5,8 +5,8 @@
 }
 #caixa:hover {
     width: 1000px;
-    border-radius: 1000px 5px 1000px 5px;
-    background: blue;
+    border-radius: 1000px 15px 1000px 15px;
+    background: radial-gradient(red, blue, green, yellow);
     /*transition: width 3s, backgroud 3s;*/
     transition:all 3s;
 }
