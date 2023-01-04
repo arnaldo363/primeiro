@@ -15,12 +15,14 @@ footer{
     margin: 10px;
     color: white;
     text-align: center;
+    clear: both;
 
 }
 article{
     background: yellow;
     margin: 10px;
     padding: 10px;
+    
 }
 section{
     border: 1px dotted #fff;
@@ -29,6 +31,8 @@ aside{
     background: rgba(30, 5, 133, 0.8);
     margin: 10px;
     color: white;
+    float: right;
+    
 }
 p{
     text-indent: 10px;
