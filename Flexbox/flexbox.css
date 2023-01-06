@@ -1,0 +1,19 @@
+h1{
+
+}
+#conteudo{
+    background: #dcdcdc;
+    height: 600px;
+    display: flex;
+    flex-direction:row ;
+    flex-wrap:wrap-reverse ;
+    justify-content: flex-start;
+}
+.item{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background: white;
+    border: 1px solid gray;
+   
+}
