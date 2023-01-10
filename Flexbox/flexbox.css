@@ -1,13 +1,11 @@
-h1{
 
-}
 #conteudo{
     background: #dcdcdc;
     height: 600px;
     display: flex;
-    flex-direction:row ;
-    flex-wrap:wrap-reverse ;
-    justify-content: flex-start;
+  /*  flex-direction:row ;/*consegui defini as direções*/
+   /* flex-wrap:wrap-reverse ;/*quebrar de layout*/
+    justify-content:space-evenly;/* muda a posição do conteudo*/
 }
 .item{
     width: 100px;
