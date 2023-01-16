@@ -5,16 +5,25 @@
     /* flex-direction: row; /*consegui defini as direções*/
     /* flex-wrap: wrap-reverse; /*quebrar de layout*/
     /* justify-content: space-around; /* muda a posição do conteudo*/
-     align-items: baseline; /* alinhamento de um certo itens*/
+    /* align-items: baseline; /* alinhamento de um certo itens*/
 
 }
 
 .item {
-    width: 100px;
+    width: 200px;
     height: 100px;
     margin: 10px;
     background: white;
     border: 1px solid gray;
-    flex-grow:0;/*Define a proporção de espaço ocupado por um i tem*/
+    /*flex-grow:0;/*Define a proporção de espaço ocupado por um i tem*/
+    flex-shrink: 1;/* define a capacidade de redução de tamanho do item*/
+}
+.item1{
     flex-shrink: 1;
+}
+.item2{
+    flex-shrink: 2;
+}
+.item3{
+    flex-shrink: 5;
 }

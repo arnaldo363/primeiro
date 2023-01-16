@@ -5,8 +5,7 @@
     /* flex-direction: row; /*consegui defini as direções*/
     /* flex-wrap: wrap-reverse; /*quebrar de layout*/
     /* justify-content: space-around; /* muda a posição do conteudo*/
-     align-items: baseline; /* alinhamento de um certo itens*/
-
+    /* align-items: baseline; /* alinhamento de um certo itens*/
 }
 
 .item {
@@ -16,5 +15,16 @@
     background: white;
     border: 1px solid gray;
     flex-grow:0;/*Define a proporção de espaço ocupado por um i tem*/
-    flex-shrink: 1;
+}
+.item1{
+   flex-grow:1;
+}
+.item2{
+    flex-grow:2;
+}
+.item3{
+    flex-grow:3;
+}
+.item4{
+    flex-grow:4;
 }
