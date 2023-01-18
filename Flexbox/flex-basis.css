@@ -1,7 +1,9 @@
-#conteudo {
-    background: #dcdcdc;
-    height: 600px;
-    display: flex;
+    #conteudo {
+        background: #dcdcdc;
+        height:600px;
+        display:-webkit-box;
+        display:-ms-flexbox;
+        display:flex;
     /* flex-direction: row; /*consegui defini as direções*/
     /* flex-wrap: wrap-reverse; /*quebrar de layout*/
     /* justify-content: space-around; /* muda a posição do conteudo*/
@@ -9,22 +11,22 @@
 }
 
 .item {
-    width: 100px;
+   /* width: 100px;*/
     height: 100px;
     margin: 10px;
     background: white;
     border: 1px solid gray;
-    flex-grow:0;/*Define a proporção de espaço ocupado por um i tem*/
+    flex-basis:100px;/*Define o tamanho  inicial do flex itens antes da distribuição do espaço restante.*/
 }
-.item1{
+/*.item1{
    flex-grow:1;
-}
+}*/
 .item2{
-    flex-grow:2;
+    flex-grow:1;
 }
 .item3{
     flex-grow:3;
 }
-.item4{
+/*.item4{
     flex-grow:7;
 }
