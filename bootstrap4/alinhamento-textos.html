@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <!--Required meta tags-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap - alinhamento de textos</title>
+  <!--Bootstrap CSS-->
+  <link  rel="stylesheet" href="css/bootstrap.min.css" >
+</head>
+<body style="margin-bottom: 200px; padding: 16px;">
+
+    <!--Parágrafo justificado-->
+    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, eveniet voluptas consequuntur obcaecati expedita quam voluptatem ex rerum blanditiis, cupiditate architecto minus aliquid, adipisci mollitia quaerat temporibus sint debitis ipsum. </p>
+    <br>
+    <hr>
+    <!--alinhamento responsivo -
+        class text-<tela>-<alinhamento>
+    tela: sm, md, lg, xl
+    alinhamento: left, center, right-->
+    <p class="text-sm-right">tela&gt;=576px Small *SM*</p>
+    <p class="text-md-right">tela&gt;=768px Medium *MD*</p>
+    <p class="text-lg-right" >tela&gt;=992px Large *LG*</p>
+    <p class="text-xl-right">tela&gt;=1200px Extra Large *XL*</p>
+<br>
+<hr>
+<!--Elemento Block para inline-->
+<h1 class="bg-success d-inline">Lorem ipsum dolor sit amet </h1>
+<p  class="bg-success d-inline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum hic porro ullam quaerat possimus, asperiores,</p>
+<br>
+<br>
+
+<!--Elemento inline para block-->
+<span class=" bg-success d-block">Lorem ipsum dolor sit 1 </span>
+<br>
+<span class=" bg-success d-block">Lorem ipsum dolor sit 2 </span>
+<br>
+<hr>
+<!--Elemento Inline-block-->
+<div class="bg-warning">
+    <h3 class="bg-success d-inline-block">lore ipsum</h3>
+    <h3 class="bg-success d-inline-block" style="margin-top: 50px; width: 400px;">lore ispsoi</h3>
+</div>
+
+
+
+
+<!--Optional JavaScript-->
+  <!--jQuery first, then Popper.js, then Bootstrap JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
