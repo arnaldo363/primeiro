@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <!--Required meta tags-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap Tamanhos e Bordas</title>
+  <!--Bootstrap CSS-->
+  <link  rel="stylesheet" href="css/bootstrap.min.css" >
+</head>
+
+<body style="margin-bottom: 200px; width: 600px; margin: 0 auto;">
+
+<!--Classes de largura-->
+<div class="bg-primary w-25" >width 25%</div>
+<div class="bg-primary w-50" >width 50%</div>
+<div class="bg-primary w-75" >width 75%</div>
+<div class="bg-primary w-100" >width 100%</div>
+<div class="bg-primary w-auto" >width auto%</div>
+<br><hr>
+<!--Classea de altura-->
+<div style="height: 300px; border: 1px solid gray; " >
+    <div class="bg-warning d-inline-block h-25" >height 25%</div>
+    <div class="bg-warning d-inline-block h-50" >height 50%</div>
+    <div class="bg-warning d-inline-block h-75" >height 75%</div>
+    <div class="bg-warning d-inline-block h-100" >height 100%</div>
+    <div class="bg-warning d-inline-block h-auto">height auto%</div>
+</div> 
+<br><hr>
+<!--Bordas
+border        = todas as bordas
+border-top    = borda superior
+border-bottom = borda inferior
+border-right  = borda direita
+borda-left    = borda esquerda
+
+Cores de bordeas
+border-<cor>; primary, secondary, success, info, warming, danger, light, dark, white-->
+<div class="bg-white mb-2 border border-primary" >todas as bordas</div>
+<div class="bg-white mb-2 border-top border-info" >bordar superior</div>
+<div class="bg-white mb-2 border-bottom border-dark" >borda inferior</div>
+<div class="bg-white mb-2 border-right border-dark" >borda direita</div>
+<div class="bg-white mb-2 border-left border-warning" >borda esquerda</div>
+<br><hr>
+<!--Border Radius
+opções; rounded, roundend-top, rounded right,rounded-left, rounded-circle-->
+<div class="bg=light mb-2 border rounded" >rounded</div>
+<div class="bg=light mb-2 border rounded-top" >rounded-top</div>
+<div class="bg=light mb-2 border rounded-bottom" >rounded-bottom</div>
+<div class="bg=light mb-2 border rounded-right" >rounded-right</div>
+<div class="bg=light mb-2 border rounded-left" >rounded-left</div>
+<div class="bg=light mb-2 border rounded" >rounded </div>
+<div class="bg=light mb-2  p-5 border w-25 rounded-circle" >rounded circle</div>
+<br><hr>
+
+
+  <!--Optional JavaScript-->
+  <!--jQuery first, then Popper.js, then Bootstrap JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
