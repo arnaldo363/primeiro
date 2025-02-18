@@ -1,4 +1,5 @@
 {
     "editor.wordWrap": "on",
-    "editor.wrappingIndent": "same"
+    "editor.wrappingIndent": "same",
+    "liveServer.settings.port": 5502
 }
