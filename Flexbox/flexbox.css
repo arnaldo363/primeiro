@@ -14,7 +14,7 @@
     height: 100px;
     margin: 10px;
     background: white;
-    border: 1px solid gray;
+    border: 10px solid rgb(111, 0, 255);
     flex-grow:0;/*Define a proporção de espaço ocupado por um i tem*/
     flex-shrink: 1;
 }

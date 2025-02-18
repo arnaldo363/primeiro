@@ -15,7 +15,7 @@
     height: 100px;
     margin: 10px;
     background: white;
-    border: 1px solid gray;
+    border: 1px solid red;
     flex-basis:100px;/*Define o tamanho  inicial do flex itens antes da distribuição do espaço restante.*/
 }
 /*.item1{
