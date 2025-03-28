@@ -6,6 +6,7 @@ html,
 body,
 #home {
     height: 100%;
+    overflow-x: hidden;
 }
 
 body {
@@ -93,6 +94,12 @@ nav.navbar-transparente {
 }
 .albuns{
     padding: 10px 0;
+}
+.rotacionar{
+    transform: rotate(30deg);
+    padding-left: 80px;
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
 }
 /* Tipografia*/
 h1 {
