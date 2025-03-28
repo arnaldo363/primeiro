@@ -48,9 +48,9 @@ nav.navbar-transparente {
 }
 .btn-custom{
     color: white;
-    border-radius: 500px;
-    -webkit-border-radius: 500px;
-    -moz-border-radius: 500px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
     text-transform: uppercase;
     transition: background 0.4s , color 0.4s;
     padding: 10px 20px;
@@ -71,12 +71,45 @@ nav.navbar-transparente {
     background-color:white ;
     color:black;
 }
+/* Estrutura conteúdos*/
+.caixa{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+#servicos{
+    background: white;
+}
+#recursos{
+    color: white;
+}
+#servicos h2, h3{
+    color: #7c25f8;
+}
+#recursos  h3{
+    color: #9bf0e1;
+}
+#recursos h2, {
+    color:white;
+}
+.albuns{
+    padding: 10px 0;
+}
 /* Tipografia*/
 h1 {
     font-weight: 900;
     letter-spacing: -0.05em;
     margin-bottom: 50px;
     color: white;
+}
+h2{
+    font-size:3em ;
+    font-weight: 700;
+    letter-spacing: -0.04;
+}
+h3{
+    font-size:2em ;
+    font-weight: 700;
+    letter-spacing: -0.04;
 }
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
