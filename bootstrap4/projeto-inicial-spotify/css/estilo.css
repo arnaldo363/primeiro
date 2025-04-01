@@ -119,7 +119,13 @@ footer .navbar-nav a{
 footer .navbar-nav a:hover{
     color: #9bf0e1;
     text-decoration: none;
-    
+}
+foot ul{
+    list-style: none;
+}
+foot ul li{
+    float: right;
+    margin: 0 5px;
 }
 /* Tipografia*/
 h1 {
